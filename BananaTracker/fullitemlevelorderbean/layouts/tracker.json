@@ -18,8 +18,7 @@
                 [ "la", "lag", "lai", "lam", "lab", "lap", "labp" ],
                 [ "ti", "tig", "tii", "tim", "tib", "tip", "tibp" ],
                 [ "ch", "chg", "chi", "chm", "chb", "chp", "chbp" ],
-                [ "ss", "dive", "orng", "brrl", "vine", "cam", "wave" ],
-                [ "ha", "sns", "n64coin", "cr", "fair", "bm" , "gb"  ]
+                [ "ss", "dive", "orng", "brrl", "vine", "filmwave", "hasns_1" ],
               ]
             }
           ]
@@ -27,6 +26,22 @@
         {
           "type": "array",
           "orientation": "horizontal",
+          "content": [
+            {
+              "type": "itemgrid",
+              "h_alignment": "center",
+              "item_size": 31,
+              "item_margin": "0,0,7,5",
+              "rows": [
+                [ "pearl", "bean", "n64coin", "rainbow", "cr", "fair", "bm" , "gb"  ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "array",
+          "orientation": "horizontal",
+          "margin":"0,0,0,0",
           "content": [
             {
               "type": "itemgrid",

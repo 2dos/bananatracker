@@ -298,6 +298,24 @@
     "codes": "sniperscope,sns"
   },
   {
+    "name": "Homing Ammo & Sniper Scope",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/homingscope1.png",
+        "codes": "hasns_1"
+      },
+      {
+        "img": "images/homingscope2.png",
+        "codes": "hasns_2"
+      },
+      {
+        "img": "images/homingscope.png",
+        "codes": "hasns"
+      }
+    ]
+  },
+  {
     "name": "Camera",
     "type": "toggle",
     "loop": "true",
@@ -311,6 +329,24 @@
    "img": "images/shockwave.png",
    "codes": "shockwave,wave"
  },
+ {
+    "name": "Film & Shockwave",
+    "type": "progressive",
+    "stages": [
+      {
+        "img": "images/filmwave1.png",
+        "codes": "filmwave_f"
+      },
+      {
+        "img": "images/filmwave2.png",
+        "codes": "filmwave_w"
+      },
+      {
+        "img": "images/filmwave.png",
+        "codes": "filmwave"
+      }
+    ]
+  },
   {
    "name": "Diving",
    "type": "toggle",
@@ -338,6 +374,22 @@
    "loop": "true",
    "img": "images/vine.png",
    "codes": "vines,vine"
+ },
+ {
+   "name": "Bean",
+   "type": "toggle",
+   "loop": "true",
+   "img": "images/bean.png",
+   "codes": "beans,bean"
+ },
+ {
+    "name": "Pearls",
+    "type": "consumable",
+    "img": "images/pearl.png",
+    "codes": "pearls,pearl",
+    "swap_actions": false,
+    "initial_quantity": 0,
+    "max_quantity": 5
  },
   {
     "name": "Coins",
@@ -392,6 +444,16 @@
     "swap_actions": false,
 	  "initial_quantity": 0,
     "max_quantity": 201
+  },
+
+  {
+    "name": "Rainbow Coins",
+    "type": "consumable",
+    "img": "images/rainbowcoin.png",
+    "codes": "rainbow,rbc",
+    "swap_actions": false,
+    "initial_quantity": 0,
+    "max_quantity": 16
   },
 
   {

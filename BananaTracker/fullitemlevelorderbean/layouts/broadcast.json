@@ -1,9 +1,11 @@
 ﻿{
-  "shared_item_grid": {
-      "type": "array",
-      "orientation": "vertical",
-      "content": [
-        {
+  "tracker_broadcast": {
+    "background": "#212121",
+    "type": "array",
+    "h_alignment": "center",
+    "margin": "10",
+    "content": [
+      {
           "type": "array",
           "orientation": "horizontal",
           "content": [
@@ -18,13 +20,27 @@
                 [ "la", "lag", "lai", "lam", "lab", "lap", "labp" ],
                 [ "ti", "tig", "tii", "tim", "tib", "tip", "tibp" ],
                 [ "ch", "chg", "chi", "chm", "chb", "chp", "chbp" ],
-                [ "ss", "dive", "orng", "brrl", "vine", "cam", "wave" ],
-                [ "ha", "sns", "n64coin", "cr", "fair", "bm" , "gb"  ]
+                [ "ss", "dive", "orng", "brrl", "vine", "filmwave", "hasns_1" ],
               ]
             }
           ]
         },
         {
+          "type": "array",
+          "orientation": "horizontal",
+          "content": [
+            {
+              "type": "itemgrid",
+              "h_alignment": "center",
+              "item_size": 31,
+              "item_margin": "0,0,7,5",
+              "rows": [
+                [ "pearl", "bean", "n64coin", "rainbow", "cr", "fair", "bm" , "gb"  ]
+              ]
+            }
+          ]
+        },
+      {
           "type": "array",
           "orientation": "horizontal",
           "content": [
@@ -112,17 +128,6 @@
             }
           ]
         }
-      ]
-  },
-  "tracker_default": {
-    "type": "container",
-    "width": 314,
-    "background": "#212121",
-    "content": {
-      "type": "layout",
-      "dropshadow": true,
-      "margin": 10,
-      "key": "shared_item_grid"
-    }
+    ]
   }
 }
